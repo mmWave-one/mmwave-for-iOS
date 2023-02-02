@@ -35,8 +35,7 @@ class ComingSoonViewController: UIViewController {
             titleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             titleLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -100),
 
-            // Added bottom anchor
-            messageLabel.bottomAnchor.constraint(equalTo:view.bottomAnchor, constant: -20)
+
             messageLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 20),
             messageLabel.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 40),
             messageLabel.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -40)
