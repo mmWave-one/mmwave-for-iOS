@@ -7,7 +7,7 @@ class InterfaceController: WKInterfaceController {
     @IBAction func buttonPressed() {
         let content = UNMutableNotificationContent()
         content.title = "Apple Watch Notification"
-        content.body = "Please continue here on your iPhone..."
+        content.body = "Please continue on your iPhone..."
         content.categoryIdentifier = "myCategory"
        
         let request = UNNotificationRequest(identifier: "myNotification", content: content, trigger: nil)
